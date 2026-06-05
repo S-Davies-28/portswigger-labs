@@ -10,7 +10,6 @@ The application required released to equal 1 (meaning it is released) in it's SQ
 This comments out the SQL saying released must equal 1 and replaces it with my condition saying that 1 must equal 1, which it always does.
 
 ## What I Did
-Step by step what you actually did to solve it:
 1. Noticed that the category filter in the url was passing directly into the database
 2. Tested whether it was sanitised by passing ' into it, new products appeared so it was not
 3. Injected +OR+1=1-- into the url to show all products
